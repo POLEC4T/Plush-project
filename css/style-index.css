@@ -1,0 +1,52 @@
+:root {
+    /* d'après la palette de couleur  */
+    --bleu-foncé:rgb(52, 73, 96);
+    --marron:rgb(140,123,110);
+    --orange:rgb(204, 133, 97);
+    --beige:rgb(221, 201, 190);
+    --beige-pale:rgb(226, 217, 207);
+
+    /* d'après le mockup */
+    --beige-header:rgb(241, 219, 196);
+    --marron-body:rgb(181, 164, 147);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li, ul li a {
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--beige-header);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    margin: 50px;
+}
+
+header nav {
+    margin: 50px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a{
+    padding: 10px;
+    color: black;
+}
