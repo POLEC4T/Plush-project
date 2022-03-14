@@ -11,6 +11,8 @@
     --marron-body:rgb(181, 164, 147);
 }
 
+/* presets */
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +28,8 @@ ul li, ul li a {
     text-decoration: none;
 }
 
+/* HEADER */
+
 header {
     background-color: var(--beige-header);
     height: 150px;
@@ -36,17 +40,30 @@ header {
 
 header img{
     margin: 50px;
+    margin-left: 10%;
+    width: auto;
+    height: 100%;
 }
 
 header nav {
     margin: 50px;
+    margin-right: 10%;
 }
 
 header nav ul {
+    
     display: flex;
+    gap: 10px;
 }
 
 header nav ul li a{
     padding: 10px;
     color: black;
+    border-radius: 20px;
+}
+
+header nav ul li a:hover{
+    background-color: var(--marron-body);
+    color: white;
+    transition: 0.3s;
 }
