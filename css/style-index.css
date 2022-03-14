@@ -13,11 +13,17 @@
 
 /* presets */
 
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
+}
+
+img {
+    box-sizing: border-box;
 }
 
 ul {
@@ -38,15 +44,22 @@ header {
     align-items: center;
 }
 
-header > img{
-    margin: 50px;
+header > a {
+    height: 150px;
+    margin: 0 50px;
     margin-left: 10%;
+    border-radius: 30px;
+}
+
+header > a > img{
     width: auto;
     height: 100%;
+    
 }
 
 header > div {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -83,7 +96,7 @@ header > div {
 
 header > div > nav {
     margin: 50px;
-    margin-right: 10%;
+    padding-right: 10%;
 }
 
 header > div > nav ul {
