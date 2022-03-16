@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PlushyShop</title>
+    <title>Contact</title>
 
-    <link rel="stylesheet" href="./css/style-index.css">
+    <link rel="stylesheet" href="./css/style-categories.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header id="header">
+    
+    <header>
         <a href="./index.html"><img src="./images/logo.jpg" alt="logo-plushyShop"></a>
         
         <div>
@@ -22,11 +24,9 @@
                 <input class="search-txt" type="">
                 <a class="search-btn" href="#"><img src="./images/loop.png" alt=""></a>
             </div>
-            
-
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./categories.html">Plushes</a></li>
                     <li><a href="./limited_edition.html">Limited Editions</a></li>
                     <li><a href="./contact.html">Contact</a></li>
@@ -36,23 +36,30 @@
     </header>
 
     <main>
-        <div>
-            <h1>Welcome to PlushyShop</h1>
-            <p>The perfect plushes, just for you</p>
-            <a href="#">Book now</a>
-        </div>
 
+        <h1>contact us.</h1>
+        <p id="contact-p">to get custom plushes</p>
         
+        <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="France">France</option>
+                <option value="UK">UK</option>
+                <option value="Spain">Spain</option>
+                <option value="Germany">Germany</option>
+                <option value="Italy">Itlay</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="subject">Design Description</label>
+            <textarea id="subject" name="subject" placeholder="Describe the plush you want.." style="height:170px"></textarea>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+
     </main>
-
-    <section>
-        <div>
-            <h2>About</h2>
-            <p>The main discussion topics at plushyshop often pave the way to surprising and unexpected conversations thanks to our engaged forum users. Our Forum is dedicated to enhancing the forum's experience by offering plenty of opportunities for users to engage with each other in an intersting and safe online environment.</p>
-            <img src="./images/front_cover.jpg" alt="">
-        </div>
-        
-    </section>
 
     <footer>
         <div>
