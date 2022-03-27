@@ -44,7 +44,8 @@
             <div>
 
                 <div class="ours">
-                    <h2>The kind Grizzly</h2>
+                    <h2>The kind <br> Grizzly</h2>
+                    <p>Be careful ! This grizzly is dangerously cute !</p>
                     <div>
                         <img src="./images/ours1.png" alt="">
                         <a href="#">add to cart</a>
@@ -54,6 +55,7 @@
             
                 <div class="ours">
                     <h2>The sleeping Teddy Bear</h2>
+                    <p>Here is the perfect companion for quality sleep! (made with organic cotton)</p>
                     <div>
                         <img src="./images/ours2.png" alt="">
                         <a href="#">add to cart</a>
@@ -63,6 +65,7 @@
             
                 <div class="ours">
                     <h2>The white Bear Family</h2>
+                    <p>It's always better when the family is together !</p>
                     <div>
                         <img src="./images/ours3.png" alt="">
                         <a href="#">add to cart</a>
@@ -71,7 +74,8 @@
                 </div>
             
                 <div class="ours">
-                    <h2>The funny Bear</h2>
+                    <h2>The funny <br> Bear</h2>
+                    <p>This ticklish teddy bear will be the best for a good laugh!</p>
                     <div>
                         <img src="./images/ours4.png" alt="">
                         <a href="#">add to cart</a>
@@ -114,5 +118,13 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
+    
 
 </body>

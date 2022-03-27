@@ -42,6 +42,7 @@
         <div>
             <div>
                 <h2>The Stork</h2>
+                <p>This soft stork will become your baby's new favorite companion!</p>
                 <div>
                     <img src="./images/doudou_cigogne.png" alt="">
                     <a href="#">add to cart</a>
@@ -52,6 +53,7 @@
         
             <div>
                 <h2>The Hedgehog</h2>
+                <p>This adorable hedgehog will turn your infant's sleep into a cozy paradise!</p>
                 <div>
                     <img src="./images/doudou_hérisson.png" alt="">
                     <a href="#">add to cart</a>
@@ -62,6 +64,7 @@
         
             <div>
                 <h2>The white Bear</h2>
+                <p>Every little one loves teddy bears; and this one will be no exception!</p>
                 <div>
                     <img src="./images/doudou_ourson.png" alt="">
                     <a href="#">add to cart</a>
@@ -72,6 +75,7 @@
         
             <div>
                 <h2>The Monkeys</h2>
+                <p>There's nothing like a bunch of sweet little monkeys to delight your newborn's eyes!</p>
                 <div>
                     <img src="./images/doudou_singe.png" alt="">
                     <a href="#">add to cart</a>
@@ -112,5 +116,13 @@
             </div>
         </div>
     </footer>
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
+    
 
 </body>

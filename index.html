@@ -39,15 +39,13 @@
         <div>
             <h1>Welcome to PlushyShop</h1>
             <p>The perfect plushes, just for you</p>
-            <a href="#">Book now</a>
+            <a href="./doudous.html">Book now</a>
         </div>
-
-        
     </main>
 
     <section>
         <div>
-            <h2>About</h2>
+            <h2>about us.</h2>
             <p>The main discussion topics at plushyshop often pave the way to surprising and unexpected conversations thanks to our engaged forum users. Our Forum is dedicated to enhancing the forum's experience by offering plenty of opportunities for users to engage with each other in an intersting and safe online environment.</p>
             <img src="./images/front_cover.jpg" alt="">
         </div>
@@ -82,6 +80,13 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
     
 </body>
 </html>
