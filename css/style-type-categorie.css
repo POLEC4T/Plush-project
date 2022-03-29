@@ -240,7 +240,7 @@ main > div > div > div > a {
     transform: translate(-50%);
     padding: 10px;
 
-    
+    transition: 0.3s;
 }
 
 
@@ -248,7 +248,7 @@ main > div > div > div > a {
 
 main > div > div > div > a:hover {
     color: var(--bleu-foncé);
-    transition: 0.3s;
+    
 }
 
 
